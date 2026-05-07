@@ -1,0 +1,12 @@
+App(
+    appid="package_tracker",
+    name="Pack Track",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="package_tracker_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_version="0.1",
+    fap_description="Track shipping packages (UI only)",
+    fap_icon="package_10px.png",
+    fap_category="Tools",
+)
